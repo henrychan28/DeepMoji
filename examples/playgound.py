@@ -15,4 +15,5 @@ with open('../model/vocabulary.json', 'r') as f:
 
 # Load dataset.
 data = load_benchmark(DATASET_PATH, vocab)
-print(data)
+print(len(data))
+print(type(data))
