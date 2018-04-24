@@ -13,7 +13,11 @@ nb_classes = 2
 with open('../model/vocabulary.json', 'r') as f:
     vocab = json.load(f)
 
+print(type(vocab))
+print(vocab.keys())
 # Load dataset.
-data = load_benchmark(DATASET_PATH, vocab)
-print(len(data))
-print(type(data))
+#data = load_benchmark(DATASET_PATH, vocab)
+#print(data.keys())
+#print(type(data))
+#model=deepmoji_transfer(nb_classes, data['maxlen'], PRETRAINED_PATH)
+#model.summary()
